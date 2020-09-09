@@ -477,27 +477,10 @@ Wire Wire Line
 Connection ~ 6350 4150
 Connection ~ 6950 4150
 $Comp
-L Connector_Generic:Conn_01x03 J6
-U 1 1 5F669EF6
-P 7600 4150
-F 0 "J6" H 7680 4192 50  0000 L CNN
-F 1 "Conn_01x03" H 7680 4101 50  0000 L CNN
-F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 7600 4150 50  0001 C CNN
-F 3 "~" H 7600 4150 50  0001 C CNN
-	1    7600 4150
-	1    0    0    -1  
-$EndComp
-Connection ~ 6950 4250
-Wire Wire Line
-	7050 4050 7050 3900
-Wire Wire Line
-	7050 3900 6950 3900
-Connection ~ 6950 3900
-$Comp
-L power:PWR_FLAG #FLG0101
+L power:PWR_FLAG #FLG01
 U 1 1 5F6D0880
 P 2750 4200
-F 0 "#FLG0101" H 2750 4275 50  0001 C CNN
+F 0 "#FLG01" H 2750 4275 50  0001 C CNN
 F 1 "PWR_FLAG" H 2750 4373 50  0000 C CNN
 F 2 "" H 2750 4200 50  0001 C CNN
 F 3 "~" H 2750 4200 50  0001 C CNN
@@ -510,30 +493,162 @@ Wire Wire Line
 	2750 4050 3050 4050
 Connection ~ 3050 4050
 Wire Wire Line
-	6950 4250 7400 4250
+	8050 4050 8050 3900
 Wire Wire Line
-	7050 4050 7400 4050
+	8050 3900 7950 3900
 Wire Wire Line
-	6950 4150 7300 4150
+	8300 4150 8400 4150
+Connection ~ 8300 4150
+Wire Wire Line
+	8300 3850 8300 4150
+Wire Wire Line
+	8400 3850 8300 3850
+Wire Wire Line
+	8400 3750 7950 3750
 $Comp
-L Connector_Generic:Conn_01x02 J5
+L Connector_Generic:Conn_01x02 J6
 U 1 1 5F6E5392
-P 7600 3750
-F 0 "J5" H 7680 3742 50  0000 L CNN
-F 1 "Conn_01x02" H 7680 3651 50  0000 L CNN
-F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 7600 3750 50  0001 C CNN
-F 3 "~" H 7600 3750 50  0001 C CNN
-	1    7600 3750
+P 8600 3750
+F 0 "J6" H 8680 3742 50  0000 L CNN
+F 1 "Conn_01x02" H 8680 3651 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 8600 3750 50  0001 C CNN
+F 3 "~" H 8600 3750 50  0001 C CNN
+	1    8600 3750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7400 3750 6950 3750
+	7950 4150 8300 4150
+Wire Wire Line
+	8050 4050 8400 4050
+Wire Wire Line
+	7950 4250 8400 4250
+$Comp
+L Connector_Generic:Conn_01x03 J7
+U 1 1 5F669EF6
+P 8600 4150
+F 0 "J7" H 8680 4192 50  0000 L CNN
+F 1 "Conn_01x03" H 8680 4101 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 8600 4150 50  0001 C CNN
+F 3 "~" H 8600 4150 50  0001 C CNN
+	1    8600 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x08_Odd_Even J5
+U 1 1 5F5BF723
+P 7700 3950
+F 0 "J5" H 7750 4467 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 7750 4376 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical" H 7700 3950 50  0001 C CNN
+F 3 "~" H 7700 3950 50  0001 C CNN
+	1    7700 3950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7400 4250 7350 4250
+Wire Wire Line
+	7350 4250 7350 4300
+Wire Wire Line
+	7350 4300 7950 4300
+Wire Wire Line
+	7950 4300 7950 4250
+Wire Wire Line
+	7950 4250 7900 4250
+Wire Wire Line
+	7400 4150 7350 4150
+Wire Wire Line
+	7350 4150 7350 4050
+Wire Wire Line
+	7350 3950 7400 3950
+Wire Wire Line
+	7400 4050 7350 4050
+Connection ~ 7350 4050
+Wire Wire Line
+	7350 4050 7350 3950
+Wire Wire Line
+	7900 3950 7950 3950
+Wire Wire Line
+	7950 3950 7950 4050
+Wire Wire Line
+	7950 4150 7900 4150
+Wire Wire Line
+	7900 4050 7950 4050
+Connection ~ 7950 4050
+Wire Wire Line
+	7950 4050 7950 4150
+Wire Wire Line
+	7400 3850 7350 3850
+Wire Wire Line
+	7350 3850 7350 3900
+Wire Wire Line
+	7350 3900 7950 3900
+Wire Wire Line
+	7950 3900 7950 3850
+Wire Wire Line
+	7950 3850 7900 3850
+Wire Wire Line
+	7400 3750 7350 3750
+Wire Wire Line
+	7350 3750 7350 3800
+Wire Wire Line
+	7350 3800 7950 3800
+Wire Wire Line
+	7950 3800 7950 3750
+Wire Wire Line
+	7950 3750 7900 3750
+Wire Wire Line
+	7400 3550 7350 3550
+Wire Wire Line
+	7350 3550 7350 3600
+Wire Wire Line
+	7350 3600 7950 3600
+Wire Wire Line
+	7950 3600 7950 3550
+Wire Wire Line
+	7950 3550 7900 3550
+Wire Wire Line
+	7400 3650 7350 3650
+Wire Wire Line
+	7350 3650 7350 3700
+Wire Wire Line
+	7350 3700 7950 3700
+Wire Wire Line
+	7950 3700 7950 3650
+Wire Wire Line
+	7950 3650 7900 3650
+Wire Wire Line
+	6950 3550 7350 3550
+Connection ~ 7350 3550
+Wire Wire Line
+	6950 3650 7350 3650
+Connection ~ 7350 3650
+Wire Wire Line
+	6950 3750 7350 3750
+Connection ~ 7350 3750
+Wire Wire Line
+	6950 3850 7350 3850
+Connection ~ 7350 3850
+Wire Wire Line
+	6950 3950 7350 3950
+Connection ~ 7350 3950
+Wire Wire Line
+	6950 4250 7350 4250
+Connection ~ 7350 4250
+Wire Wire Line
+	7350 4150 7350 4200
+Wire Wire Line
+	7350 4200 7950 4200
+Wire Wire Line
+	7950 4200 7950 4150
+Connection ~ 7350 4150
+Connection ~ 7950 4150
+Connection ~ 6950 3550
+Connection ~ 6950 3650
 Connection ~ 6950 3750
-Wire Wire Line
-	7400 3850 7300 3850
-Wire Wire Line
-	7300 3850 7300 4150
-Connection ~ 7300 4150
-Wire Wire Line
-	7300 4150 7400 4150
+Connection ~ 6950 3850
+Connection ~ 6950 3950
+Connection ~ 6950 4250
+Connection ~ 7950 3750
+Connection ~ 7950 3900
+Connection ~ 7950 4250
 $EndSCHEMATC
