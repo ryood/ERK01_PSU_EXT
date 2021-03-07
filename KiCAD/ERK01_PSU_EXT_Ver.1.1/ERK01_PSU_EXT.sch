@@ -594,10 +594,10 @@ Connection ~ 6400 2850
 Connection ~ 6400 2950
 Connection ~ 6400 3250
 $Comp
-L Connector_Generic:Conn_02x08_Odd_Even J?
+L Connector_Generic:Conn_02x08_Odd_Even J6
 U 1 1 5FED60D9
 P 8150 2950
-F 0 "J?" H 8200 3467 50  0000 C CNN
+F 0 "J6" H 8200 3467 50  0000 C CNN
 F 1 "Conn_02x08_Odd_Even" H 8200 3376 50  0000 C CNN
 F 2 "Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical" H 8150 2950 50  0001 C CNN
 F 3 "~" H 8150 2950 50  0001 C CNN
@@ -709,10 +709,10 @@ Connection ~ 7400 2850
 Connection ~ 7400 2950
 Connection ~ 7400 3250
 $Comp
-L Connector_Generic:Conn_02x08_Odd_Even J?
+L Connector_Generic:Conn_02x08_Odd_Even J7
 U 1 1 5FEE9555
 P 9150 2950
-F 0 "J?" H 9200 3467 50  0000 C CNN
+F 0 "J7" H 9200 3467 50  0000 C CNN
 F 1 "Conn_02x08_Odd_Even" H 9200 3376 50  0000 C CNN
 F 2 "Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical" H 9150 2950 50  0001 C CNN
 F 3 "~" H 9150 2950 50  0001 C CNN
@@ -824,10 +824,10 @@ Connection ~ 8400 2850
 Connection ~ 8400 2950
 Connection ~ 8400 3250
 $Comp
-L Connector_Generic:Conn_01x02 J?
+L Connector_Generic:Conn_01x02 J9
 U 1 1 5FF34B65
 P 3650 3950
-F 0 "J?" H 3730 3942 50  0000 L CNN
+F 0 "J9" H 3730 3942 50  0000 L CNN
 F 1 "+5V" H 3730 3851 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 3650 3950 50  0001 C CNN
 F 3 "~" H 3650 3950 50  0001 C CNN
@@ -835,10 +835,10 @@ F 3 "~" H 3650 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J?
+L Connector_Generic:Conn_01x03 J14
 U 1 1 5FF34B6F
 P 3650 4350
-F 0 "J?" H 3730 4392 50  0000 L CNN
+F 0 "J14" H 3730 4392 50  0000 L CNN
 F 1 "+-12V" H 3730 4301 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 3650 4350 50  0001 C CNN
 F 3 "~" H 3650 4350 50  0001 C CNN
@@ -846,10 +846,10 @@ F 3 "~" H 3650 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J?
+L Connector_Generic:Conn_01x02 J10
 U 1 1 5FF4BFB6
 P 4250 3950
-F 0 "J?" H 4330 3942 50  0000 L CNN
+F 0 "J10" H 4330 3942 50  0000 L CNN
 F 1 "+5V" H 4330 3851 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 4250 3950 50  0001 C CNN
 F 3 "~" H 4250 3950 50  0001 C CNN
@@ -857,10 +857,10 @@ F 3 "~" H 4250 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J?
+L Connector_Generic:Conn_01x03 J15
 U 1 1 5FF4BFC0
 P 4250 4350
-F 0 "J?" H 4330 4392 50  0000 L CNN
+F 0 "J15" H 4330 4392 50  0000 L CNN
 F 1 "+-12V" H 4330 4301 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 4250 4350 50  0001 C CNN
 F 3 "~" H 4250 4350 50  0001 C CNN
@@ -868,54 +868,10 @@ F 3 "~" H 4250 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J?
-U 1 1 5FF629EA
-P 4850 3950
-F 0 "J?" H 4930 3942 50  0000 L CNN
-F 1 "+5V" H 4930 3851 50  0000 L CNN
-F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 4850 3950 50  0001 C CNN
-F 3 "~" H 4850 3950 50  0001 C CNN
-	1    4850 3950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x03 J?
-U 1 1 5FF629F4
-P 4850 4350
-F 0 "J?" H 4930 4392 50  0000 L CNN
-F 1 "+-12V" H 4930 4301 50  0000 L CNN
-F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 4850 4350 50  0001 C CNN
-F 3 "~" H 4850 4350 50  0001 C CNN
-	1    4850 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J?
-U 1 1 5FF7938A
-P 5450 3950
-F 0 "J?" H 5530 3942 50  0000 L CNN
-F 1 "+5V" H 5530 3851 50  0000 L CNN
-F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 5450 3950 50  0001 C CNN
-F 3 "~" H 5450 3950 50  0001 C CNN
-	1    5450 3950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x03 J?
-U 1 1 5FF79394
-P 5450 4350
-F 0 "J?" H 5530 4392 50  0000 L CNN
-F 1 "+-12V" H 5530 4301 50  0000 L CNN
-F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 5450 4350 50  0001 C CNN
-F 3 "~" H 5450 4350 50  0001 C CNN
-	1    5450 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J6
+L Connector_Generic:Conn_01x02 J8
 U 1 1 5F6E5392
 P 3050 3950
-F 0 "J6" H 3130 3942 50  0000 L CNN
+F 0 "J8" H 3130 3942 50  0000 L CNN
 F 1 "+5V" H 3130 3851 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 3050 3950 50  0001 C CNN
 F 3 "~" H 3050 3950 50  0001 C CNN
@@ -923,10 +879,10 @@ F 3 "~" H 3050 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J7
+L Connector_Generic:Conn_01x03 J13
 U 1 1 5F669EF6
 P 3050 4350
-F 0 "J7" H 3130 4392 50  0000 L CNN
+F 0 "J13" H 3130 4392 50  0000 L CNN
 F 1 "+-12V" H 3130 4301 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 3050 4350 50  0001 C CNN
 F 3 "~" H 3050 4350 50  0001 C CNN
@@ -963,10 +919,10 @@ Wire Wire Line
 	2750 4350 2750 4550
 Connection ~ 2750 4350
 $Comp
-L power:GND #PWR?
+L power:GND #PWR02
 U 1 1 60149F56
 P 2750 4550
-F 0 "#PWR?" H 2750 4300 50  0001 C CNN
+F 0 "#PWR02" H 2750 4300 50  0001 C CNN
 F 1 "GND" H 2755 4377 50  0000 C CNN
 F 2 "" H 2750 4550 50  0001 C CNN
 F 3 "" H 2750 4550 50  0001 C CNN
@@ -986,19 +942,7 @@ Wire Wire Line
 	4050 4050 3450 4050
 Connection ~ 3450 4050
 Wire Wire Line
-	4650 4050 4050 4050
-Connection ~ 4050 4050
-Wire Wire Line
-	5250 4050 4650 4050
-Connection ~ 4650 4050
-Wire Wire Line
-	5250 3950 4650 3950
-Wire Wire Line
-	4650 3950 4050 3950
-Connection ~ 4650 3950
-Wire Wire Line
 	4050 3950 3450 3950
-Connection ~ 4050 3950
 Wire Wire Line
 	3450 3950 2850 3950
 Connection ~ 3450 3950
@@ -1021,131 +965,157 @@ Connection ~ 3450 4350
 Wire Wire Line
 	4050 4250 3450 4250
 Connection ~ 3450 4250
-Wire Wire Line
-	4650 4250 4050 4250
-Connection ~ 4050 4250
-Wire Wire Line
-	4650 4350 4050 4350
-Connection ~ 4050 4350
-Wire Wire Line
-	4650 4450 4050 4450
-Connection ~ 4050 4450
-Wire Wire Line
-	5250 4250 4650 4250
-Connection ~ 4650 4250
-Wire Wire Line
-	5250 4350 4650 4350
-Connection ~ 4650 4350
-Wire Wire Line
-	5250 4450 4650 4450
-Connection ~ 4650 4450
 $Comp
-L Device:R R?
+L Device:R R1
 U 1 1 60347A1E
-P 6400 3950
-F 0 "R?" V 6193 3950 50  0000 C CNN
-F 1 "1k" V 6284 3950 50  0000 C CNN
-F 2 "" V 6330 3950 50  0001 C CNN
-F 3 "~" H 6400 3950 50  0001 C CNN
-	1    6400 3950
+P 5700 3950
+F 0 "R1" V 5493 3950 50  0000 C CNN
+F 1 "1k" V 5584 3950 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5630 3950 50  0001 C CNN
+F 3 "~" H 5700 3950 50  0001 C CNN
+	1    5700 3950
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
-U 1 1 603485EE
-P 6400 4300
-F 0 "R?" V 6193 4300 50  0000 C CNN
-F 1 "1k" V 6284 4300 50  0000 C CNN
-F 2 "" V 6330 4300 50  0001 C CNN
-F 3 "~" H 6400 4300 50  0001 C CNN
-	1    6400 4300
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
+L Device:R R3
 U 1 1 60348A92
-P 6400 4650
-F 0 "R?" V 6193 4650 50  0000 C CNN
-F 1 "1k" V 6284 4650 50  0000 C CNN
-F 2 "" V 6330 4650 50  0001 C CNN
-F 3 "~" H 6400 4650 50  0001 C CNN
-	1    6400 4650
+P 5700 4650
+F 0 "R3" V 5493 4650 50  0000 C CNN
+F 1 "1k" V 5584 4650 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5630 4650 50  0001 C CNN
+F 3 "~" H 5700 4650 50  0001 C CNN
+	1    5700 4650
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED D?
+L Device:LED D1
 U 1 1 60349FCC
-P 6800 3950
-F 0 "D?" H 6793 3695 50  0000 C CNN
-F 1 "GREEN" H 6793 3786 50  0000 C CNN
-F 2 "" H 6800 3950 50  0001 C CNN
-F 3 "~" H 6800 3950 50  0001 C CNN
-	1    6800 3950
+P 5300 3950
+F 0 "D1" H 5293 3695 50  0000 C CNN
+F 1 "GREEN" H 5293 3786 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 5300 3950 50  0001 C CNN
+F 3 "~" H 5300 3950 50  0001 C CNN
+	1    5300 3950
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED D?
+L Device:LED D2
 U 1 1 6034AC79
-P 6800 4300
-F 0 "D?" H 6793 4045 50  0000 C CNN
-F 1 "RED" H 6793 4136 50  0000 C CNN
-F 2 "" H 6800 4300 50  0001 C CNN
-F 3 "~" H 6800 4300 50  0001 C CNN
-	1    6800 4300
+P 5300 4300
+F 0 "D2" H 5293 4045 50  0000 C CNN
+F 1 "RED" H 5293 4136 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 5300 4300 50  0001 C CNN
+F 3 "~" H 5300 4300 50  0001 C CNN
+	1    5300 4300
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED D?
+L Device:LED D3
 U 1 1 6034B810
-P 6800 4650
-F 0 "D?" H 6793 4395 50  0000 C CNN
-F 1 "BLUE" H 6793 4486 50  0000 C CNN
-F 2 "" H 6800 4650 50  0001 C CNN
-F 3 "~" H 6800 4650 50  0001 C CNN
-	1    6800 4650
+P 5300 4650
+F 0 "D3" H 5293 4395 50  0000 C CNN
+F 1 "BLUE" H 5293 4486 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 5300 4650 50  0001 C CNN
+F 3 "~" H 5300 4650 50  0001 C CNN
+	1    5300 4650
 	-1   0    0    1   
 $EndComp
-Text Label 6050 3950 0    50   ~ 0
+Text Label 4950 3950 0    50   ~ 0
 +5V
 Wire Wire Line
-	6250 3950 6050 3950
+	5150 3950 4950 3950
 Wire Wire Line
-	6250 4300 6050 4300
+	5150 4300 4950 4300
 Wire Wire Line
-	6250 4650 6050 4650
-Text Label 6050 4300 0    50   ~ 0
+	5150 4650 4950 4650
+Text Label 4950 4300 0    50   ~ 0
 +12V
-Text Label 6050 4650 0    50   ~ 0
+Text Label 4950 4650 0    50   ~ 0
 -12V
 Wire Wire Line
-	6550 3950 6650 3950
+	5850 3950 5950 3950
 Wire Wire Line
-	6550 4300 6650 4300
+	5950 3950 5950 4300
 Wire Wire Line
-	6550 4650 6650 4650
+	5850 4650 5950 4650
 Wire Wire Line
-	6950 3950 7050 3950
-Wire Wire Line
-	7050 3950 7050 4300
-Wire Wire Line
-	7050 4300 6950 4300
-Wire Wire Line
-	6950 4650 7050 4650
-Wire Wire Line
-	7050 4650 7050 4300
-Connection ~ 7050 4300
+	5950 4650 5950 4300
+Connection ~ 5950 4300
 $Comp
-L power:GND #PWR?
+L power:GND #PWR03
 U 1 1 6048D72C
-P 7050 4750
-F 0 "#PWR?" H 7050 4500 50  0001 C CNN
-F 1 "GND" H 7055 4577 50  0000 C CNN
-F 2 "" H 7050 4750 50  0001 C CNN
-F 3 "" H 7050 4750 50  0001 C CNN
-	1    7050 4750
+P 5950 4750
+F 0 "#PWR03" H 5950 4500 50  0001 C CNN
+F 1 "GND" H 5955 4577 50  0000 C CNN
+F 2 "" H 5950 4750 50  0001 C CNN
+F 3 "" H 5950 4750 50  0001 C CNN
+	1    5950 4750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7050 4750 7050 4650
-Connection ~ 7050 4650
+	5950 4750 5950 4650
+Connection ~ 5950 4650
+Wire Wire Line
+	5950 4300 5850 4300
+$Comp
+L Device:R R2
+U 1 1 603485EE
+P 5700 4300
+F 0 "R2" V 5493 4300 50  0000 C CNN
+F 1 "1k" V 5584 4300 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5630 4300 50  0001 C CNN
+F 3 "~" H 5700 4300 50  0001 C CNN
+	1    5700 4300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5450 3950 5550 3950
+Wire Wire Line
+	5450 4300 5550 4300
+Wire Wire Line
+	5450 4650 5550 4650
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5FF96C3B
+P 6900 3900
+F 0 "H1" H 7000 3946 50  0000 L CNN
+F 1 "MountingHole" H 7000 3855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 6900 3900 50  0001 C CNN
+F 3 "~" H 6900 3900 50  0001 C CNN
+	1    6900 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5FF96F7A
+P 6900 4150
+F 0 "H2" H 7000 4196 50  0000 L CNN
+F 1 "MountingHole" H 7000 4105 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 6900 4150 50  0001 C CNN
+F 3 "~" H 6900 4150 50  0001 C CNN
+	1    6900 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5FF9760F
+P 6900 4400
+F 0 "H3" H 7000 4446 50  0000 L CNN
+F 1 "MountingHole" H 7000 4355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 6900 4400 50  0001 C CNN
+F 3 "~" H 6900 4400 50  0001 C CNN
+	1    6900 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5FF97DDB
+P 6900 4650
+F 0 "H4" H 7000 4696 50  0000 L CNN
+F 1 "MountingHole" H 7000 4605 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 6900 4650 50  0001 C CNN
+F 3 "~" H 6900 4650 50  0001 C CNN
+	1    6900 4650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
