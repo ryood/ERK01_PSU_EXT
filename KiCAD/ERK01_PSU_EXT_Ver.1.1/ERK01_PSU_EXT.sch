@@ -1018,7 +1018,7 @@ F 1 "BLUE" H 5293 4486 50  0000 C CNN
 F 2 "LED_THT:LED_D3.0mm" H 5300 4650 50  0001 C CNN
 F 3 "~" H 5300 4650 50  0001 C CNN
 	1    5300 4650
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 Text Label 4950 3950 0    50   ~ 0
 +5V
